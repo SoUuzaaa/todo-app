@@ -11,4 +11,4 @@
 
 ### Prévia:
 
-!(previa)[https://github.com/SoUuzaaa/todo-app/blob/master/assets/previa.gif]
+![previa](https://github.com/SoUuzaaa/todo-app/blob/master/assets/previa.gif)
