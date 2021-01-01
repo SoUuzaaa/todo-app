@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo-List</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="todo">
-            <h1>TODO-LIST</h1>
-            <p><input type="text" placeholder="Add an item" id="inputElement"><button id="btnElement">Add</button> <button id="clearList">Clear List</button></p>
-            <div id="writeTODO">
-
+            <h1 class="title">TODO-LIST<i class="fas fa-list"></i></h1>
+            <p><input type="text" placeholder="Add an item" class="inputStyle" id="inputElement"><button class="btnAdd" id="btnElement">Add <i class="fas fa-plus-square"></i></button><button class="btnClear" id="clearList">Clear List</button></p>
+            <div class="todosElements" id="writeTODO">
+                <!-- Will write the list here -->
             </div>
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/bfcd5f93fa.js" crossorigin="anonymous"></script>
 </body>
 </html>
