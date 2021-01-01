@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #424242;
+    background-image: linear-gradient(45deg, #131313,#292929);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .container {
     display: flex;
@@ -50,4 +52,20 @@ button {
     border: none;
     outline: 0;
     border-radius: 10px;
+}
+
+/* Animations */
+h1, input, .btnAdd, .btnClear {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 600ms;
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateX(-35%);
+    } to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

@@ -7,5 +7,6 @@
 ### Changelogs:
 
 - Added CSS
+- Added Animations
 
 ### Prévia:
