@@ -6,4 +6,6 @@
 
 ### Changelogs:
 
+- Added CSS
+
 ### Prévia:
